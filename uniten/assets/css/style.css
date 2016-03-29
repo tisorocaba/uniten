@@ -1,0 +1,198 @@
+/* =Nav
+-------------------------------------------------------------- */
+#nav-trigger { 
+  display: none;
+  text-align: center;  
+  } 
+  
+  #nav-trigger span { 
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #26501a;
+    color: white;
+	font-weight:bold;
+    cursor: pointer;
+    text-transform: uppercase; }
+    
+	#nav-trigger span:after { 
+      display: inline-block;
+      margin-left: 10px;
+      width: 20px;
+      height: 10px;
+      content: "";
+      border-left: solid 10px transparent;
+      border-top: solid 10px #fff;
+      border-right: solid 10px transparent; }
+    #nav-trigger span:hover {
+      background-color: #26501a; }
+    #nav-trigger span.open:after {
+      border-left: solid 10px transparent;
+      border-top: none;
+      border-bottom: solid 10px #fff;
+      border-right: solid 10px transparent; }
+
+nav { 
+  margin: 0px; z-index:1000;  }
+
+nav#nav-main { 
+  background-color: #26501a; 
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.4)); 
+  transition: all .5s; 
+}
+  nav#nav-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+	
+	
+	 }
+  nav#nav-main li {
+    display: inline-block;
+ 	 
+    padding: 0px 0px; }
+    nav#nav-main li:last-child { 
+    border-right: none; }
+  	nav#nav-main a {
+    display: block;
+    color: white;
+    padding: 20px 20px; }
+    nav#nav-main a:hover {
+
+	  background-color: #3b7033;
+      color: #fff;
+	  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.4)); 
+  	  transition: all .5s;  
+  }
+
+nav#nav-mobile {
+
+  position: relative;
+  display: none; 
+  }
+  nav#nav-mobile ul {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #26501a; 
+	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.4)); 
+  	transition: all .5s;
+	
+	}
+  nav#nav-mobile li {
+    display: block;
+    padding: 5px 0;
+    margin: 0 5px;
+    border-bottom: solid 1px #26501a; }
+    nav#nav-mobile li:last-child {
+      border-bottom: none; }
+  nav#nav-mobile a {
+    display: block;
+    color: white;
+    padding: 10px 30px; }
+    nav#nav-mobile a:hover {
+      background-color: #3b7033;
+      color: #fff; background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.4)); 
+  transition: all .5s;}
+
+/* =Sections
+-------------------------------------------------------------- */
+section h1 {
+  margin-bottom: 10px; }
+
+section p {
+  margin-bottom: 30px; }
+  section p:last-child {
+    margin-bottom: 0; }
+
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 900px) {
+  #nav-trigger {
+    display: block;  }
+
+  nav#nav-main { 
+    display: none; }
+
+  nav#nav-mobile {
+    display: block; } }
+
+
+/*  Paginacao */
+
+#page_container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.pagination { text-align: center; margin: 20px 0; word-spacing: -1em; }
+.pagination li { display: inline-block; list-style: none; font: bold 12px/13px Arial, Helvetica, sans-serif; padding: 5px 9px; color: #999; background: #eee; word-spacing: normal; margin: 0 1px; }
+.pagination li.first { margin-right: 10px; }
+.pagination li.last { margin-left: 10px; }
+.pagination li.current { background: #FFF; color: #fff; }
+.pagination li a { display: inline-block; padding: 5px 9px; margin: -5px -9px; text-decoration: none;}
+.pagination li a,
+.pagination li a:link,
+.pagination li a:visited,
+.pagination li a:active { background: #666; color: #fff; }
+.pagination li a:hover,
+.pagination li a:focus { background: #333; }
+.pagination li,
+.pagination li a {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}}
+
+
+/* responsive tables */
+
+#page-wrap {
+    margin: 50px;
+}
+
+/*
+	Generic Styling, for Desktops/Laptops
+	*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+}
+td, th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: small;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+#div-botton {
+    text-align: center;
+    margin:0 auto
+}
+
+.btn { color: #fefefe; font-size: 11px; float: right; display: block; margin: 0; padding: 5px 10px; cursor: pointer; border: none; border-radius: 0; background: #5f5f5f; }
+
+ 
+
+  input[type=button]:hover{ background: #ff0008; }

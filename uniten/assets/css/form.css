@@ -1,0 +1,100 @@
+.form{
+    max-width: 100%;
+    min-width: 16%;
+    border-width: 2px;
+    border-color: #CCCCCC;
+    border-radius: 36px;
+    color: #222222;
+    font-size: 14px;
+    margin: 0px;
+    background-color: #FFFFFF;
+    padding: 17px;
+}
+.content{
+    margin: 0px;
+}
+.form label{
+    color: #222222;
+    font-size: 14px;
+    display: block;
+}
+.form input[type=radio], input[type=checkbox]{
+    margin: 10px;
+    width: 13px;
+}
+.form div{
+    display: block;
+}
+
+.inputPequeno{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    border-radius: 3px;
+    padding: 8px;
+    width: 15%;
+}
+
+.inputMedio{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    border-radius: 3px;
+    padding: 8px;
+    width: 35%;
+}
+
+.select{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    border-radius: 3px;
+    padding: 8px;
+    width: 100%;
+}
+
+
+form textarea,  form c{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    border-radius: 3px;
+    padding: 8px;
+    width: 100%;
+}
+
+.form h1{
+    font-size: 34px;
+    color: #607A75;
+    padding: 1px;
+    margin: 1px;
+    margin-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+    border-bottom-width: 2px;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+}
+.intro{
+    margin-bottom: 10px;
+}
+.clear{
+    clear: both;
+}
+.form textarea{
+    height: 35px;
+    width: 100%;
+}
+.form input[type=submit]{
+    width: 19%;
+    background-color: #C5CC5E;
+    color: #222222;
+}
+.field{
+    margin-bottom: 5px;
+}
+
+.form input[type=radio], input[type=checkbox]{
+    margin: 10px;
+    width: 13px;
+}

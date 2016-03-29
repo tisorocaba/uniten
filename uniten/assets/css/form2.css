@@ -1,0 +1,65 @@
+
+/*-----FORMULARIOS-----*/
+#div-form{ max-width: 1000px; } /* Declare uma outra div caso tenha formulários com larguras diferentes */
+#div-senha-dados{ max-width: 300px; margin: 0 auto; }
+#div-area-restrita{ max-width: 500px; margin: 0 auto; text-align: center; }
+#div-lembrete-senha{ max-width: 400px; margin: 0 auto; text-align: center; }
+
+#div-int{ width: 100%; }
+#div-int .div-left{ width: 49%; float: left; }
+#div-int .div-right{ width: 49%; float: right; }
+.auto{ margin: 0 auto !important; }
+.no-margin{ margin: 0 !important; }
+
+.row-grid{ width: 100%; display: table; margin: 0 0 10px 0; }
+.row-grid span{ display: block; }
+.row-grid input[type=text],
+.row-grid input[type=password],
+.row-grid select,
+.row-grid textarea{
+    color: #666;
+    font-size: 14px;
+    border-radius: 0;
+    outline: none;
+    background: #fefefe;
+    border: 1px solid #ccc;
+}
+
+.row-grid input[type=text],
+.row-grid input[type=password]{ width: 97.5%; padding: 7px 1%; }
+.row-grid textarea{ width: 97.5%; height: 150px; padding: 5px 1%; }
+.row-grid select{ width: 99.7%; padding: 6px 1%; }
+.row-grid select option{ color: inherit; }
+.row-grid input[type=submit]{ color: #fefefe; font-size: 11px; float: right; display: block; margin: 0; padding: 5px 10px; cursor: pointer; border: none; border-radius: 0; background: #5f5f5f; }
+.row-grid input[type=submit]:hover{ background: #ff0008; }
+.row-grid input[type=radio]{ float: left; }
+.row-grid input[type=checkbox]{ float: left; }
+
+
+.row-grid input[type=button]{ color: #fefefe; font-size: 11px; float: right; display: block; margin: 0; padding: 5px 10px; cursor: pointer; border: none; border-radius: 0; background: #5f5f5f; }
+.row-grid input[type=button]:hover{ background: #ff0008; }
+
+.span6{ width: 100%; float: left; }
+.span5{ width: 83%; float: left; margin: 0 2% 0 0; }
+.span4{ width: 66%; float: left; margin: 0 2% 0 0; }
+.span3{ width: 49%; float: left; margin: 0 2% 0 0; }
+.span2{ width: 32%; float: left; margin: 0 2% 0 0; }
+.span1{ width: 14.94%; float: left; margin: 0 2% 0 0; }
+.span0{ width: 7.94%; float: left; margin: 0 2% 0 0; }
+.no-margin{ margin: 0 !important; }
+
+.label {
+    font-size: 0.7em;
+    color: #666;
+    text-align: left;
+    font-style: italic;
+}
+
+.termo {
+    font-size: 0.5em;
+    color: #666;
+    text-align: left;
+    font-style: italic;
+}
+
+/*-----FORMULARIOS-----*/

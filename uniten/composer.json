@@ -1,0 +1,11 @@
+{
+	"description" : "Uniten",
+	"name" : "splicenet/uniten",
+	"require": {
+		"php": ">=5.2.4"
+	},
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*",
+	    "gregwar/captcha": "dev-master"
+	}
+}

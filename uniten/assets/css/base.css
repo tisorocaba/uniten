@@ -1,0 +1,932 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    font-size: 16pt;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    background: url(../imgs/bg.jpg) 50% 0 repeat-x;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+}
+
+/* Textos */
+h1 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #000;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: -.025em;
+}
+
+h2 {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #000;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: -.025em;
+}
+
+h3 {
+    font-size: 0.9em;
+    color: #0b2e4d;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: -.025em;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 0.5em;
+    color: #000;
+    padding: 10px;
+    letter-spacing: -.025em;
+    margin-bottom: -10px;
+}
+
+h5 {
+    font-size: 0.7em;
+    font-weight: 300;
+    color: #0b2e4d;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    line-height: 27px;
+}
+
+h6 {
+    font-size: 0.7em;
+    font-weight: 300;
+    color: #0b2e4d;
+    margin: 0;
+    padding: 10px;
+    font-style: italic;
+    text-align: right;
+}
+
+p.textoHome {
+    font-size: 0.7em;
+    font-weight: 300;
+    color: #0b2e4d;
+    margin: 0;
+    text-align: left;
+    margin-right: 10px;
+    margin-top: -7px;
+}
+
+p.tituloNoticiasHome {
+    font-size: 0.7em;
+    font-weight: 300;
+    color: #0b2e4d;
+    margin: 0;
+    text-align: left;
+    margin-right: 10px;
+    margin-top: -7px;
+}
+
+p.data {
+    font-size: 10px;
+    text-align: center;
+}
+
+p.editoria {
+    color: #006fb1;
+    font-variant: small-caps;
+    font-size: 21px;
+    text-indent: 47px;
+    line-height: 53px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    background: url(../imgs/iconEditoria.png) 0px 0px no-repeat;
+}
+
+p.enderecoRodape {
+    font-size: 15px;
+    color: #fff;
+}
+
+p.telefoneRodape {
+    font-size: 21px;
+    color: #fff;
+}
+
+p.emailRodape {
+    font-size: 13px;
+    color: #fff;
+}
+
+p.textoInfo {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+p.textoInfoRodape {
+    font-size: 11px;
+    line-height: 17px;
+    color: #fff;
+}
+
+p.textoTermosForm {
+    font-size: 14px;
+    padding: 23px;
+}
+
+span.CentralFone {
+    font-weight: bold;
+    color: #0496f;
+}
+
+p.textoInfo {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+p.textoArquivo {
+    color: #aaa9aa;
+    font-size: 19px;
+    line-height: 43px;
+    text-indent: 47px;
+    font-weight: bold;
+    background: url(../imgs/iconDowload.png) 0px 7px no-repeat;
+}
+
+p.textoLegenda {
+    font-size: 19px;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+span.credito {
+    font-size: 12px;
+    color: #777;
+}
+
+p.endereco {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+p.textoCopyright {
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+}
+
+span.linkSlide {
+    font-size: 13px;
+}
+
+p.tituloServicos {
+    font-size: 0.9em;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: -.025em;
+    text-transform: uppercase;
+}
+
+.textoCorpo {
+    font-size: 0.7em;
+    font-weight: 300;
+    color: #0b2e4d;
+    margin: 0;
+    padding: 10px;
+    font-style: italic;
+    text-align: right;
+}
+
+/* Div's */
+#divContainer {
+    width: 90%;
+    margin: 0 auto;
+    z-index: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#divContainer2 {
+    width: 90%;
+    margin: 0 auto;
+    z-index: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: -17px;
+}
+
+#divLogo {
+    position: relative;
+    width: 280px;
+    height: 111px;
+    float: left;
+    z-index: 0;
+    margin-top: 23px;
+    margin-right: 20px;
+}
+
+#divLogosPrefeitura {
+    position: relative;
+    width: 280px;
+    height: 50px;
+    float: left;
+    z-index: 0;
+    left: 50px;
+    top: 67px;
+    overflow: hidden;
+}
+
+#divSlideTop {
+    position: relative;
+    width: 200px;
+    height: 182px;
+    float: right;
+    z-index: 0;
+}
+
+#divMenu {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 999;
+    top: -27px;
+}
+
+#divTools {
+    position: relative;
+    float: right;
+    text-align: right;
+    width: 150px;
+}
+
+#divSlideHome {
+    position: relative;
+    margin-bottom: -388px;
+}
+
+#divBoxNoticias {
+    position: relative;
+    width: 33%;
+    float: left;
+}
+
+#divBoxCursos {
+    position: relative;
+    width: 33%;
+    float: left;
+    border-left: 1px dotted #aaa;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#divBoxServicos {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    background: #0099FF;
+}
+
+/* DIV fotos da Galeria de Fotos*/
+#divImgList {
+    position: relative;
+    width: 190px;
+    float: left;
+    padding: 1px;
+    padding-bottom: 1px;
+    margin: 7px;
+    background: #006fb1;
+    list-style: none;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    transition: all .5s;
+}
+
+a img {
+    border: none;
+}
+
+a.link:link {
+    text-decoration: none;
+    color: #00496f;
+}
+
+a.link:visited {
+    text-decoration: none;
+    color: #00496f;
+}
+
+a.link:hover {
+    text-decoration: none;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    transition: all .6s;
+    color: #00496f;
+}
+
+a.link:active {
+    text-decoration: none;
+    color: #00496f;
+}
+
+a.linkBranco:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+a.linkBranco:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a.linkBranco:hover {
+    text-decoration: none;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    transition: all .6s;
+    color: #fff;
+}
+
+a.linkBranco:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+a.alpha:link {
+    text-decoration: none;
+}
+
+a.alpha:visited {
+    text-decoration: none;
+}
+
+a.alpha:hover {
+    text-decoration: none;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    transition: all .6s;
+}
+
+a.alpha:active {
+    text-decoration: none;
+}
+
+/* Rodapé */
+#divRodape {
+    background: #006fb1;
+    background: -moz-linear-gradient(top, #006fb1 0%, #0083d1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #006fb1), color-stop(100%, #0083d1));
+    background: -webkit-linear-gradient(top, #006fb1 0%, #0083d1 100%);
+    background: -o-linear-gradient(top, #006fb1 0%, #0083d1 100%);
+    background: -ms-linear-gradient(top, #006fb1 0%, #0083d1 100%);
+    background: linear-gradient(to bottom, #006fb1 0%, #0083d1 100%);
+}
+
+#divRodape > ul {
+    background: url('..imgs/menu/images/bg.png');
+    text-align: center;
+}
+
+#divLogoRodape {
+    position: relative;
+    width: 320px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+/* Menu Rodapé */
+.menuRodape {
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.menuRodape li {
+    display: inline;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.menuRodape a {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+}
+
+.menuRodape a:hover {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    transition: all .5s;
+}
+
+#divList ul {
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+#divList li {
+    padding-left: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+
+#divList li a {
+    color: #fff;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+* html #divList li a {
+}
+
+/*Necessario para que funcione no IE6*/
+
+#divList li a:hover {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+#divList a em {
+    color: #000;
+    display: block;
+    background-color: #f1e8d6;
+}
+
+img.fotoTumb {
+    padding: 1px;
+    padding-bottom: 1px;
+    margin: 7px;
+    background: #006fb1;
+    list-style: none;
+    margin-right: 10px;
+}
+
+img.Icons {
+    margin: 7px;
+    list-style: none;
+    margin-right: 10px;
+}
+
+/* menuServicos Home */
+
+#menuServicos, #menuServicos ul {
+    margin: 10px 0px 0px 0px;
+    margin-top: 5px;
+    padding: 1px;
+    display: table;
+    color: #fff;
+}
+
+#menuServicos li {
+    display: block;
+    padding: 3px;
+    vertical-align: middle;
+    font-size: 18px;
+    text-indent: 27px;
+    background: url(../imgs/iconSetaBranca.png) 20px no-repeat;
+    line-height: 30px;
+}
+
+#menuServicos a, #menuServicos a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menuServicos li:hover {
+    color: #fff;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+/* menuCursos Home */
+#menuCursos, #menuCursos ul {
+    margin: 10px 0px 0px 0px;
+    margin-top: 5px;
+    padding: 1px;
+    display: table;
+    color: #0b2e4d;
+}
+
+#menuCursos li {
+    display: block;
+    padding: 3px;
+    vertical-align: middle;
+    font-size: 13px;
+    text-indent: 7px;
+    background: url(../imgs/iconSeta.png) 0px no-repeat;
+}
+
+#menuCursos a, #menuCursos a:visited {
+    text-decoration: none;
+    color: #0b2e4d;
+}
+
+#menuCursos li:hover {
+    color: #0b2e4d;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+/* Media Queries (Responsivo) */
+@media all and (max-width: 1024px) {
+    #menuCursos li {
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    #divBoxServicos {
+        padding-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 960px) {
+    #menuCursos li {
+        font-size: 10px;
+    }
+
+    p.tituloNoticiasHome {
+        font-size: 0.7em;
+        font-weight: 300;
+        color: #0b2e4d;
+        margin: 0;
+        text-align: left;
+        margin-right: 10px;
+        margin-top: -7px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    #divSlideTop {
+        width: 100%;
+        text-align: left;
+        min-width: 260px;
+    }
+
+    #divLogo {
+        width: 100%;
+        text-align: center;
+    }
+
+    #divContainer {
+        width: 90%;
+        text-align: center;
+    }
+
+    #divLogosPrefeitura {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Textos */
+    h1 {
+        font-size: 1.3em;
+        font-weight: 300;
+        color: #000;
+        margin: 0;
+        padding: 10px;
+        letter-spacing: -.025em;
+    }
+
+    h2 {
+        font-size: 0.9em;
+        font-weight: 300;
+        color: #000;
+        margin: 0;
+        padding: 10px;
+        letter-spacing: -.025em;
+    }
+
+    h3 {
+        font-size: 0.7em;
+        color: #0b2e4d;
+        margin: 0;
+        padding: 10px;
+        letter-spacing: -.025em;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-size: 0.5em;
+        color: #000;
+        padding: 10px;
+        letter-spacing: -.025em;
+        margin-bottom: -10px;
+        margin-top: 7px;
+    }
+
+    h5 {
+        font-size: 0.7em;
+        font-weight: 300;
+        color: #0b2e4d;
+        margin: 0;
+        padding: 10px;
+        text-align: left;
+    }
+
+    h6 {
+        font-size: 0.7em;
+        font-weight: 300;
+        color: #0b2e4d;
+        margin: 0;
+        padding: 10px;
+        font-style: italic;
+        text-align: right;
+    }
+}
+
+@media all and (max-width: 800px) {
+    #menuServicos li {
+        font-size: 13px;
+    }
+
+    #menuCursos li {
+        font-size: 12px;
+    }
+
+    #divBoxNoticias {
+        width: 47%;
+    }
+
+    #divBoxCursos {
+        width: 47%;
+    }
+
+    #divBoxServicos {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    #menuServicos li {
+        display: inline;
+        padding: 16px;
+        padding-left: 9px;
+        background: url(../imgs/iconSetaBranca.png) 3px no-repeat;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #menuCursos li {
+        font-size: 11px;
+    }
+
+    #divBoxNoticias {
+        width: 45%;
+    }
+
+    #divBoxCursos {
+        width: 45%;
+    }
+
+    #menuServicos li {
+        display: inline;
+        padding: 13px;
+        padding-left: 9px;
+        background: url(../imgs/iconSetaBranca.png) 3px no-repeat;
+    }
+}
+
+@media all and (max-width: 600px) {
+
+    #menuCursos li {
+        font-size: 14px;
+    }
+
+    p.tituloNoticiasHome {
+        font-size: 0.8em;
+        font-weight: 300;
+        color: #0b2e4d;
+        margin: 0;
+        text-align: left;
+        margin-right: 10px;
+        margin-top: -7px;
+    }
+
+    p.textoHome {
+        font-size: 0.6em;
+        font-weight: 300;
+        color: #0b2e4d;
+        margin: 0;
+        text-align: left;
+        margin-right: 10px;
+        margin-top: -7px;
+    }
+
+    #divBoxNoticias {
+        position: relative;
+        width: 100%;
+        float: left;
+    }
+
+    #divBoxCursos {
+        position: relative;
+        width: 95%;
+        float: left;
+        border-left: 0px;
+    }
+
+    #divBoxServicos {
+        position: relative;
+        width: 100%;
+        float: left;
+    }
+
+    #menuServicos li {
+        font-size: 9px;
+        display: inline;
+        padding: 12px;
+        padding-left: 9px;
+        background: url(../imgs/iconSetaBranca.png) 3px no-repeat;
+    }
+
+    .menuRodape li {
+        font-size: 9px;
+    }
+
+    p.endereco {
+        font-size: 11px;
+    }
+
+    #top-bar a {
+        display: block;
+    }
+
+    span.all-labs {
+        width: 100%;
+
+    }
+
+    span.all-labs {
+        float: none;
+    }
+
+    span.all-labs {
+        border-bottom: solid 1px #7c001f;
+    }
+
+    #title h1 {
+        font-size: 20px;
+    }
+
+    #title h2 {
+        font-size: 16px;
+    }
+
+}
+
+@media all and (max-width: 480px) {
+
+    #menuServicos li {
+        display: block;
+        padding: 3px;
+        vertical-align: middle;
+        font-size: 18px;
+        text-indent: 47px;
+        background: url(../imgs/iconSetaBranca.png) 40px no-repeat;
+        line-height: 30px;
+    }
+
+    p.textoCopyright {
+        font-size: 7px;
+    }
+
+    .menuRodape li {
+        font-size: 11px;
+    }
+
+    p.endereco {
+        font-size: 9px;
+    }
+
+    @media all and (max-width: 320px) {
+
+        #menuServicos li {
+            display: block;
+            padding: 3px;
+            vertical-align: middle;
+            font-size: 18px;
+            text-indent: 37px;
+            background: url(../imgs/iconSetaBranca.png) 30px no-repeat;
+            line-height: 30px;
+        }
+
+        #menuCursos li {
+            display: block;
+            padding: 3px;
+            vertical-align: middle;
+            font-size: 13px;
+            text-indent: 0px;
+            background: url(none) 0px no-repeat;
+        }
+
+        #divBoxCursos {
+            position: relative;
+            width: 92%;
+            float: left;
+            border-left: 0px;
+        }
+
+        #divLogo {
+            width: 280px;
+            text-align: center;
+            left: -10px;
+        }
+
+        #divContainer2 {
+            width: 90%;
+            margin: 0 auto;
+            z-index: 0;
+            overflow: hidden;
+            margin-bottom: 20px;
+            margin-top: 245px;
+        }
+
+        h1 {
+            font-size: 0.7em;
+            font-weight: 300;
+            color: #000;
+            margin: 0;
+            padding: 10px;
+            letter-spacing: -.025em;
+        }
+
+        #divLogosPrefeitura {
+            position: relative;
+            width: 300px;
+            height: 52px;
+            float: left;
+            z-index: 0;
+            left: -10px;
+            top: 0px;
+            overflow: hidden;
+        }
+
+        #divSlideTop {
+            position: relative;
+            width: 200px;
+            height: 182px;
+            float: left;
+            z-index: 0;
+        }
+    }
+
+
+    /* =Footer
+    -------------------------------------------------------------- */
+    /* =Extras
+    -------------------------------------------------------------- */
+    .clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: "";
+        clear: both;
+        height: 0;
+    }
+
+    .pubBorder {
+        margin: 5px 0;
+        display: block;
+        border-bottom: 1px dashed #ddd;
+    }
+
+    .clear {
+        clear: both;
+        display: block;
+    }
